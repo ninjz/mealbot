@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import <SpeechKit/SpeechKit.h>
+@interface ViewController : UIViewController <UITextFieldDelegate, SpeechKitDelegate, SKRecognizerDelegate, SKVocalizerDelegate>
 
-@interface ViewController : UIViewController
+@property (strong, nonatomic) SKRecognizer * voiceSearch;
+@property (weak, nonatomic) IBOutlet UITextField *searchTextField;
+@property (weak, nonatomic) IBOutlet UIButton *recordButton;
+@property (weak, nonatomic) IBOutlet UILabel *messageLabel;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
+@property (weak, nonatomic) IBOutlet UITableView *resultTableView;
+
+@property (strong, nonatomic) AppDelegate *appDelegate;
+@property (strong, nonatomic) NSMutableArray *tableViewDisplayDataArray;
+@property (strong, nonatomic) NSString* searchCriteria;
+@property (strong, nonatomic) SKVocalizer* vocalizer;
+@property BOOL isSpeaking;
 
 @end
 

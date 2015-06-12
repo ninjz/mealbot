@@ -15,6 +15,16 @@
 		EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEC1B2B948A00292BAF /* Images.xcassets */; };
 		EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEE1B2B948A00292BAF /* LaunchScreen.xib */; };
 		EB84ADFC1B2B948B00292BAF /* mealbotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADFB1B2B948B00292BAF /* mealbotTests.m */; };
+		EB84AE061B2B998600292BAF /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE051B2B998600292BAF /* SpeechKit.framework */; };
+		EB84AE0A1B2B9D3C00292BAF /* earcon_cancel.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB84AE071B2B9D3C00292BAF /* earcon_cancel.wav */; };
+		EB84AE0B1B2B9D3C00292BAF /* earcon_done_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB84AE081B2B9D3C00292BAF /* earcon_done_listening.wav */; };
+		EB84AE0C1B2B9D3C00292BAF /* earcon_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB84AE091B2B9D3C00292BAF /* earcon_listening.wav */; };
+		EB84AE0E1B2BA20F00292BAF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE0D1B2BA20F00292BAF /* AVFoundation.framework */; };
+		EB84AE101B2BA23300292BAF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE0F1B2BA23300292BAF /* AudioToolbox.framework */; };
+		EB84AE121B2BA2F200292BAF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE111B2BA2F200292BAF /* CFNetwork.framework */; };
+		EB84AE141B2BA30500292BAF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE131B2BA30500292BAF /* SystemConfiguration.framework */; };
+		EB84AE161B2BA30F00292BAF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE151B2BA30F00292BAF /* Security.framework */; };
+		EB84AE181B2BA32400292BAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE171B2BA32400292BAF /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,16 @@
 		EB84ADF51B2B948B00292BAF /* mealbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB84ADFA1B2B948B00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84ADFB1B2B948B00292BAF /* mealbotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mealbotTests.m; sourceTree = "<group>"; };
+		EB84AE051B2B998600292BAF /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = ../../Downloads/DragonMobileSDK_1.4.14/SpeechKit.framework; sourceTree = "<group>"; };
+		EB84AE071B2B9D3C00292BAF /* earcon_cancel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_cancel.wav; sourceTree = "<group>"; };
+		EB84AE081B2B9D3C00292BAF /* earcon_done_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_done_listening.wav; sourceTree = "<group>"; };
+		EB84AE091B2B9D3C00292BAF /* earcon_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_listening.wav; sourceTree = "<group>"; };
+		EB84AE0D1B2BA20F00292BAF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EB84AE0F1B2BA23300292BAF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EB84AE111B2BA2F200292BAF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EB84AE131B2BA30500292BAF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB84AE151B2BA30F00292BAF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EB84AE171B2BA32400292BAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB84AE181B2BA32400292BAF /* CoreGraphics.framework in Frameworks */,
+				EB84AE161B2BA30F00292BAF /* Security.framework in Frameworks */,
+				EB84AE141B2BA30500292BAF /* SystemConfiguration.framework in Frameworks */,
+				EB84AE121B2BA2F200292BAF /* CFNetwork.framework in Frameworks */,
+				EB84AE101B2BA23300292BAF /* AudioToolbox.framework in Frameworks */,
+				EB84AE0E1B2BA20F00292BAF /* AVFoundation.framework in Frameworks */,
+				EB84AE061B2B998600292BAF /* SpeechKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,13 @@
 		EB84ADD01B2B948A00292BAF = {
 			isa = PBXGroup;
 			children = (
+				EB84AE171B2BA32400292BAF /* CoreGraphics.framework */,
+				EB84AE151B2BA30F00292BAF /* Security.framework */,
+				EB84AE131B2BA30500292BAF /* SystemConfiguration.framework */,
+				EB84AE111B2BA2F200292BAF /* CFNetwork.framework */,
+				EB84AE0F1B2BA23300292BAF /* AudioToolbox.framework */,
+				EB84AE0D1B2BA20F00292BAF /* AVFoundation.framework */,
+				EB84AE051B2B998600292BAF /* SpeechKit.framework */,
 				EB84ADDB1B2B948A00292BAF /* mealbot */,
 				EB84ADF81B2B948B00292BAF /* mealbotTests */,
 				EB84ADDA1B2B948A00292BAF /* Products */,
@@ -99,6 +133,9 @@
 		EB84ADDC1B2B948A00292BAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB84AE071B2B9D3C00292BAF /* earcon_cancel.wav */,
+				EB84AE081B2B9D3C00292BAF /* earcon_done_listening.wav */,
+				EB84AE091B2B9D3C00292BAF /* earcon_listening.wav */,
 				EB84ADDD1B2B948A00292BAF /* Info.plist */,
 				EB84ADDE1B2B948A00292BAF /* main.m */,
 			);
@@ -204,6 +241,9 @@
 			files = (
 				EB84ADEB1B2B948A00292BAF /* Main.storyboard in Resources */,
 				EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */,
+				EB84AE0B1B2B9D3C00292BAF /* earcon_done_listening.wav in Resources */,
+				EB84AE0A1B2B9D3C00292BAF /* earcon_cancel.wav in Resources */,
+				EB84AE0C1B2B9D3C00292BAF /* earcon_listening.wav in Resources */,
 				EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/calvincheng/Downloads/DragonMobileSDK_1.4.14,
+				);
 				INFOPLIST_FILE = mealbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,7 +406,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/calvincheng/Downloads/DragonMobileSDK_1.4.14,
+				);
 				INFOPLIST_FILE = mealbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -370,7 +420,6 @@
 		EB84AE031B2B948B00292BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -389,7 +438,6 @@
 		EB84AE041B2B948B00292BAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
