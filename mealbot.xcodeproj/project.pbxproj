@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB84ADDF1B2B948A00292BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADDE1B2B948A00292BAF /* main.m */; };
+		EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE11B2B948A00292BAF /* AppDelegate.m */; };
+		EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */; };
+		EB84ADE81B2B948A00292BAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE71B2B948A00292BAF /* ViewController.m */; };
+		EB84ADEB1B2B948A00292BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADE91B2B948A00292BAF /* Main.storyboard */; };
+		EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEC1B2B948A00292BAF /* Images.xcassets */; };
+		EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEE1B2B948A00292BAF /* LaunchScreen.xib */; };
+		EB84ADFC1B2B948B00292BAF /* mealbotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADFB1B2B948B00292BAF /* mealbotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB84ADF61B2B948B00292BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB84ADD11B2B948A00292BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB84ADD81B2B948A00292BAF;
+			remoteInfo = mealbot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB84ADD91B2B948A00292BAF /* mealbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB84ADDD1B2B948A00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB84ADDE1B2B948A00292BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB84ADE01B2B948A00292BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB84ADE11B2B948A00292BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB84ADE41B2B948A00292BAF /* mealbot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mealbot.xcdatamodel; sourceTree = "<group>"; };
+		EB84ADE61B2B948A00292BAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB84ADE71B2B948A00292BAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB84ADEA1B2B948A00292BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB84ADEC1B2B948A00292BAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB84ADEF1B2B948A00292BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB84ADF51B2B948B00292BAF /* mealbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB84ADFA1B2B948B00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB84ADFB1B2B948B00292BAF /* mealbotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mealbotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB84ADD61B2B948A00292BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB84ADF21B2B948B00292BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB84ADD01B2B948A00292BAF = {
+			isa = PBXGroup;
+			children = (
+				EB84ADDB1B2B948A00292BAF /* mealbot */,
+				EB84ADF81B2B948B00292BAF /* mealbotTests */,
+				EB84ADDA1B2B948A00292BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB84ADDA1B2B948A00292BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB84ADD91B2B948A00292BAF /* mealbot.app */,
+				EB84ADF51B2B948B00292BAF /* mealbotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB84ADDB1B2B948A00292BAF /* mealbot */ = {
+			isa = PBXGroup;
+			children = (
+				EB84ADE01B2B948A00292BAF /* AppDelegate.h */,
+				EB84ADE11B2B948A00292BAF /* AppDelegate.m */,
+				EB84ADE61B2B948A00292BAF /* ViewController.h */,
+				EB84ADE71B2B948A00292BAF /* ViewController.m */,
+				EB84ADE91B2B948A00292BAF /* Main.storyboard */,
+				EB84ADEC1B2B948A00292BAF /* Images.xcassets */,
+				EB84ADEE1B2B948A00292BAF /* LaunchScreen.xib */,
+				EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */,
+				EB84ADDC1B2B948A00292BAF /* Supporting Files */,
+			);
+			path = mealbot;
+			sourceTree = "<group>";
+		};
+		EB84ADDC1B2B948A00292BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB84ADDD1B2B948A00292BAF /* Info.plist */,
+				EB84ADDE1B2B948A00292BAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB84ADF81B2B948B00292BAF /* mealbotTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB84ADFB1B2B948B00292BAF /* mealbotTests.m */,
+				EB84ADF91B2B948B00292BAF /* Supporting Files */,
+			);
+			path = mealbotTests;
+			sourceTree = "<group>";
+		};
+		EB84ADF91B2B948B00292BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB84ADFA1B2B948B00292BAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB84ADD81B2B948A00292BAF /* mealbot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB84ADFF1B2B948B00292BAF /* Build configuration list for PBXNativeTarget "mealbot" */;
+			buildPhases = (
+				EB84ADD51B2B948A00292BAF /* Sources */,
+				EB84ADD61B2B948A00292BAF /* Frameworks */,
+				EB84ADD71B2B948A00292BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mealbot;
+			productName = mealbot;
+			productReference = EB84ADD91B2B948A00292BAF /* mealbot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB84ADF41B2B948B00292BAF /* mealbotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB84AE021B2B948B00292BAF /* Build configuration list for PBXNativeTarget "mealbotTests" */;
+			buildPhases = (
+				EB84ADF11B2B948B00292BAF /* Sources */,
+				EB84ADF21B2B948B00292BAF /* Frameworks */,
+				EB84ADF31B2B948B00292BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB84ADF71B2B948B00292BAF /* PBXTargetDependency */,
+			);
+			name = mealbotTests;
+			productName = mealbotTests;
+			productReference = EB84ADF51B2B948B00292BAF /* mealbotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB84ADD11B2B948A00292BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mealbot inc";
+				TargetAttributes = {
+					EB84ADD81B2B948A00292BAF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EB84ADF41B2B948B00292BAF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EB84ADD81B2B948A00292BAF;
+					};
+				};
+			};
+			buildConfigurationList = EB84ADD41B2B948A00292BAF /* Build configuration list for PBXProject "mealbot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB84ADD01B2B948A00292BAF;
+			productRefGroup = EB84ADDA1B2B948A00292BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB84ADD81B2B948A00292BAF /* mealbot */,
+				EB84ADF41B2B948B00292BAF /* mealbotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB84ADD71B2B948A00292BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB84ADEB1B2B948A00292BAF /* Main.storyboard in Resources */,
+				EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */,
+				EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB84ADF31B2B948B00292BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB84ADD51B2B948A00292BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */,
+				EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */,
+				EB84ADE81B2B948A00292BAF /* ViewController.m in Sources */,
+				EB84ADDF1B2B948A00292BAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB84ADF11B2B948B00292BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB84ADFC1B2B948B00292BAF /* mealbotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB84ADF71B2B948B00292BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB84ADD81B2B948A00292BAF /* mealbot */;
+			targetProxy = EB84ADF61B2B948B00292BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB84ADE91B2B948A00292BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB84ADEA1B2B948A00292BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB84ADEE1B2B948A00292BAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB84ADEF1B2B948A00292BAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB84ADFD1B2B948B00292BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB84ADFE1B2B948B00292BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB84AE001B2B948B00292BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mealbot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB84AE011B2B948B00292BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mealbot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB84AE031B2B948B00292BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mealbotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mealbot.app/mealbot";
+			};
+			name = Debug;
+		};
+		EB84AE041B2B948B00292BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mealbotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mealbot.app/mealbot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB84ADD41B2B948A00292BAF /* Build configuration list for PBXProject "mealbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB84ADFD1B2B948B00292BAF /* Debug */,
+				EB84ADFE1B2B948B00292BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB84ADFF1B2B948B00292BAF /* Build configuration list for PBXNativeTarget "mealbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB84AE001B2B948B00292BAF /* Debug */,
+				EB84AE011B2B948B00292BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB84AE021B2B948B00292BAF /* Build configuration list for PBXNativeTarget "mealbotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB84AE031B2B948B00292BAF /* Debug */,
+				EB84AE041B2B948B00292BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB84ADE41B2B948A00292BAF /* mealbot.xcdatamodel */,
+			);
+			currentVersion = EB84ADE41B2B948A00292BAF /* mealbot.xcdatamodel */;
+			path = mealbot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB84ADD11B2B948A00292BAF /* Project object */;
+}
