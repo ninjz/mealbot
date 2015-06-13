@@ -24,7 +24,8 @@ const unsigned char SpeechKitApplicationKey[] = {0x45, 0x49, 0xd6, 0xb3, 0xe4, 0
     // Do any additional setup after loading the view, typically from a nib.
     self.client = [MBotAPIClient sharedClient];
     
-    
+    self.resultTableView.delegate = self;
+    self.resultTableView.dataSource = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,6 +51,21 @@ const unsigned char SpeechKitApplicationKey[] = {0x45, 0x49, 0xd6, 0xb3, 0xe4, 0
             [self.voiceSearch cancel];
         }
     }
+}
+
+# pragma mark - TableView Delegate Methods
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [self.recipes count];
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *CellIdentifier = @"RecipeCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    NSDictionary *recipe = self.recipes[indexPath.row];
+    
+    cell.textLabel.text = recipe[@"name"];
+    
+    return cell;
 }
 
 # pragma mark - SKRecognizer Delegate Methods

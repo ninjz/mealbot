@@ -11,7 +11,7 @@
 #import <SpeechKit/SpeechKit.h>
 #import "MBotAPIClient.h"
 
-@interface ViewController : UIViewController <UITextFieldDelegate, SpeechKitDelegate, SKRecognizerDelegate, SKVocalizerDelegate>
+@interface ViewController : UIViewController <UITextFieldDelegate, SpeechKitDelegate, SKRecognizerDelegate, SKVocalizerDelegate, UITableViewDelegate, UITableViewDataSource>
 
 @property (strong, nonatomic) SKRecognizer * voiceSearch;
 @property (weak, nonatomic) IBOutlet UITextField *searchTextField;
