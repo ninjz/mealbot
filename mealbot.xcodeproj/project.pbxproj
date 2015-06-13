@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		A18E3C901B2BAA490005E8AC /* MBotAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3C8F1B2BAA490005E8AC /* MBotAPIClient.m */; };
 		A18E3C931B2BABF80005E8AC /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E3C921B2BABF80005E8AC /* SpeechKit.framework */; };
+		A18E3C961B2CC44B0005E8AC /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3C951B2CC44B0005E8AC /* CAPSPageMenu.m */; };
+		A18E3C991B2CC77E0005E8AC /* MbotBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3C981B2CC77E0005E8AC /* MbotBaseViewController.m */; };
+		A18E3C9F1B2CCA8E0005E8AC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3C9D1B2CCA8E0005E8AC /* TestViewController.m */; };
+		A18E3CA01B2CCA8E0005E8AC /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3C9E1B2CCA8E0005E8AC /* TestViewController.xib */; };
+		A18E3CA41B2CCEB20005E8AC /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CA21B2CCEB20005E8AC /* EmptyViewController.m */; };
+		A18E3CA51B2CCEB20005E8AC /* EmptyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CA31B2CCEB20005E8AC /* EmptyViewController.xib */; };
+		A18E3CA71B2CD5E00005E8AC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CA61B2CD5E00005E8AC /* logo.png */; };
+		A18E3CA91B2CD7F30005E8AC /* logo_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CA81B2CD7F30005E8AC /* logo_dark.png */; };
+		A18E3CAD1B2CD98F0005E8AC /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CAB1B2CD98F0005E8AC /* RecipeTableViewCell.m */; };
+		A18E3CAE1B2CD98F0005E8AC /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CAC1B2CD98F0005E8AC /* RecipeTableViewCell.xib */; };
 		EB84ADDF1B2B948A00292BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADDE1B2B948A00292BAF /* main.m */; };
 		EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE11B2B948A00292BAF /* AppDelegate.m */; };
 		EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */; };
-		EB84ADE81B2B948A00292BAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE71B2B948A00292BAF /* ViewController.m */; };
 		EB84ADEB1B2B948A00292BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADE91B2B948A00292BAF /* Main.storyboard */; };
 		EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEC1B2B948A00292BAF /* Images.xcassets */; };
 		EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEE1B2B948A00292BAF /* LaunchScreen.xib */; };
@@ -46,14 +55,27 @@
 		A18E3C8E1B2BAA490005E8AC /* MBotAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBotAPIClient.h; sourceTree = "<group>"; };
 		A18E3C8F1B2BAA490005E8AC /* MBotAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBotAPIClient.m; sourceTree = "<group>"; };
 		A18E3C921B2BABF80005E8AC /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		A18E3C941B2CC44B0005E8AC /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
+		A18E3C951B2CC44B0005E8AC /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
+		A18E3C971B2CC77E0005E8AC /* MbotBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MbotBaseViewController.h; sourceTree = "<group>"; };
+		A18E3C981B2CC77E0005E8AC /* MbotBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MbotBaseViewController.m; sourceTree = "<group>"; };
+		A18E3C9C1B2CCA8E0005E8AC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A18E3C9D1B2CCA8E0005E8AC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		A18E3C9E1B2CCA8E0005E8AC /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		A18E3CA11B2CCEB20005E8AC /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
+		A18E3CA21B2CCEB20005E8AC /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
+		A18E3CA31B2CCEB20005E8AC /* EmptyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyViewController.xib; sourceTree = "<group>"; };
+		A18E3CA61B2CD5E00005E8AC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A18E3CA81B2CD7F30005E8AC /* logo_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_dark.png; sourceTree = "<group>"; };
+		A18E3CAA1B2CD98F0005E8AC /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewCell.h; sourceTree = "<group>"; };
+		A18E3CAB1B2CD98F0005E8AC /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewCell.m; sourceTree = "<group>"; };
+		A18E3CAC1B2CD98F0005E8AC /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
 		EB84ADD91B2B948A00292BAF /* mealbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB84ADDD1B2B948A00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84ADDE1B2B948A00292BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB84ADE01B2B948A00292BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB84ADE11B2B948A00292BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB84ADE41B2B948A00292BAF /* mealbot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mealbot.xcdatamodel; sourceTree = "<group>"; };
-		EB84ADE61B2B948A00292BAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB84ADE71B2B948A00292BAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB84ADEA1B2B948A00292BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB84ADEC1B2B948A00292BAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB84ADEF1B2B948A00292BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -123,6 +145,29 @@
 			name = Network;
 			sourceTree = "<group>";
 		};
+		A18E3C9A1B2CC9190005E8AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A18E3C9C1B2CCA8E0005E8AC /* TestViewController.h */,
+				A18E3C9D1B2CCA8E0005E8AC /* TestViewController.m */,
+				A18E3C9E1B2CCA8E0005E8AC /* TestViewController.xib */,
+				A18E3CA11B2CCEB20005E8AC /* EmptyViewController.h */,
+				A18E3CA21B2CCEB20005E8AC /* EmptyViewController.m */,
+				A18E3CA31B2CCEB20005E8AC /* EmptyViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A18E3C9B1B2CC94B0005E8AC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A18E3CAA1B2CD98F0005E8AC /* RecipeTableViewCell.h */,
+				A18E3CAB1B2CD98F0005E8AC /* RecipeTableViewCell.m */,
+				A18E3CAC1B2CD98F0005E8AC /* RecipeTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		EB84ADD01B2B948A00292BAF = {
 			isa = PBXGroup;
 			children = (
@@ -154,10 +199,12 @@
 			isa = PBXGroup;
 			children = (
 				A18E3C911B2BAA4D0005E8AC /* Network */,
+				A18E3C9A1B2CC9190005E8AC /* ViewControllers */,
+				A18E3C9B1B2CC94B0005E8AC /* Cells */,
 				EB84ADE01B2B948A00292BAF /* AppDelegate.h */,
 				EB84ADE11B2B948A00292BAF /* AppDelegate.m */,
-				EB84ADE61B2B948A00292BAF /* ViewController.h */,
-				EB84ADE71B2B948A00292BAF /* ViewController.m */,
+				A18E3C971B2CC77E0005E8AC /* MbotBaseViewController.h */,
+				A18E3C981B2CC77E0005E8AC /* MbotBaseViewController.m */,
 				EB84ADE91B2B948A00292BAF /* Main.storyboard */,
 				EB84ADEC1B2B948A00292BAF /* Images.xcassets */,
 				EB84ADEE1B2B948A00292BAF /* LaunchScreen.xib */,
@@ -170,6 +217,10 @@
 		EB84ADDC1B2B948A00292BAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A18E3CA81B2CD7F30005E8AC /* logo_dark.png */,
+				A18E3CA61B2CD5E00005E8AC /* logo.png */,
+				A18E3C941B2CC44B0005E8AC /* CAPSPageMenu.h */,
+				A18E3C951B2CC44B0005E8AC /* CAPSPageMenu.m */,
 				EB84AE071B2B9D3C00292BAF /* earcon_cancel.wav */,
 				EB84AE081B2B9D3C00292BAF /* earcon_done_listening.wav */,
 				EB84AE091B2B9D3C00292BAF /* earcon_listening.wav */,
@@ -281,9 +332,14 @@
 			files = (
 				EB84ADEB1B2B948A00292BAF /* Main.storyboard in Resources */,
 				EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */,
+				A18E3CA71B2CD5E00005E8AC /* logo.png in Resources */,
 				EB84AE0B1B2B9D3C00292BAF /* earcon_done_listening.wav in Resources */,
 				EB84AE0A1B2B9D3C00292BAF /* earcon_cancel.wav in Resources */,
 				EB84AE0C1B2B9D3C00292BAF /* earcon_listening.wav in Resources */,
+				A18E3CAE1B2CD98F0005E8AC /* RecipeTableViewCell.xib in Resources */,
+				A18E3CA91B2CD7F30005E8AC /* logo_dark.png in Resources */,
+				A18E3CA01B2CCA8E0005E8AC /* TestViewController.xib in Resources */,
+				A18E3CA51B2CCEB20005E8AC /* EmptyViewController.xib in Resources */,
 				EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,10 +406,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18E3C991B2CC77E0005E8AC /* MbotBaseViewController.m in Sources */,
 				EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */,
+				A18E3CAD1B2CD98F0005E8AC /* RecipeTableViewCell.m in Sources */,
 				EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */,
+				A18E3C961B2CC44B0005E8AC /* CAPSPageMenu.m in Sources */,
 				A18E3C901B2BAA490005E8AC /* MBotAPIClient.m in Sources */,
-				EB84ADE81B2B948A00292BAF /* ViewController.m in Sources */,
+				A18E3C9F1B2CCA8E0005E8AC /* TestViewController.m in Sources */,
+				A18E3CA41B2CCEB20005E8AC /* EmptyViewController.m in Sources */,
 				EB84ADDF1B2B948A00292BAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
