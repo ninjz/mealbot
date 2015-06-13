@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A18E3C901B2BAA490005E8AC /* MBotAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3C8F1B2BAA490005E8AC /* MBotAPIClient.m */; };
+		A18E3C931B2BABF80005E8AC /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E3C921B2BABF80005E8AC /* SpeechKit.framework */; };
 		EB84ADDF1B2B948A00292BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADDE1B2B948A00292BAF /* main.m */; };
 		EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE11B2B948A00292BAF /* AppDelegate.m */; };
 		EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */; };
@@ -15,7 +17,6 @@
 		EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEC1B2B948A00292BAF /* Images.xcassets */; };
 		EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB84ADEE1B2B948A00292BAF /* LaunchScreen.xib */; };
 		EB84ADFC1B2B948B00292BAF /* mealbotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADFB1B2B948B00292BAF /* mealbotTests.m */; };
-		EB84AE061B2B998600292BAF /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE051B2B998600292BAF /* SpeechKit.framework */; };
 		EB84AE0A1B2B9D3C00292BAF /* earcon_cancel.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB84AE071B2B9D3C00292BAF /* earcon_cancel.wav */; };
 		EB84AE0B1B2B9D3C00292BAF /* earcon_done_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB84AE081B2B9D3C00292BAF /* earcon_done_listening.wav */; };
 		EB84AE0C1B2B9D3C00292BAF /* earcon_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB84AE091B2B9D3C00292BAF /* earcon_listening.wav */; };
@@ -25,6 +26,7 @@
 		EB84AE141B2BA30500292BAF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE131B2BA30500292BAF /* SystemConfiguration.framework */; };
 		EB84AE161B2BA30F00292BAF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE151B2BA30F00292BAF /* Security.framework */; };
 		EB84AE181B2BA32400292BAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB84AE171B2BA32400292BAF /* CoreGraphics.framework */; };
+		FDC1354D65975B9DC1486C87 /* Pods_mealbot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C9FADE3E67949E6A26211 /* Pods_mealbot.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		480C9FADE3E67949E6A26211 /* Pods_mealbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealbot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B6E25061D6961142450548 /* Pods-mealbot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealbot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mealbot/Pods-mealbot.debug.xcconfig"; sourceTree = "<group>"; };
+		926F74E78BD20838D2057508 /* Pods-mealbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealbot.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealbot/Pods-mealbot.release.xcconfig"; sourceTree = "<group>"; };
+		A18E3C8E1B2BAA490005E8AC /* MBotAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBotAPIClient.h; sourceTree = "<group>"; };
+		A18E3C8F1B2BAA490005E8AC /* MBotAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBotAPIClient.m; sourceTree = "<group>"; };
+		A18E3C921B2BABF80005E8AC /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
 		EB84ADD91B2B948A00292BAF /* mealbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB84ADDD1B2B948A00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84ADDE1B2B948A00292BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,7 +60,6 @@
 		EB84ADF51B2B948B00292BAF /* mealbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB84ADFA1B2B948B00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84ADFB1B2B948B00292BAF /* mealbotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mealbotTests.m; sourceTree = "<group>"; };
-		EB84AE051B2B998600292BAF /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = ../../Downloads/DragonMobileSDK_1.4.14/SpeechKit.framework; sourceTree = "<group>"; };
 		EB84AE071B2B9D3C00292BAF /* earcon_cancel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_cancel.wav; sourceTree = "<group>"; };
 		EB84AE081B2B9D3C00292BAF /* earcon_done_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_done_listening.wav; sourceTree = "<group>"; };
 		EB84AE091B2B9D3C00292BAF /* earcon_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_listening.wav; sourceTree = "<group>"; };
@@ -75,7 +82,8 @@
 				EB84AE121B2BA2F200292BAF /* CFNetwork.framework in Frameworks */,
 				EB84AE101B2BA23300292BAF /* AudioToolbox.framework in Frameworks */,
 				EB84AE0E1B2BA20F00292BAF /* AVFoundation.framework in Frameworks */,
-				EB84AE061B2B998600292BAF /* SpeechKit.framework in Frameworks */,
+				FDC1354D65975B9DC1486C87 /* Pods_mealbot.framework in Frameworks */,
+				A18E3C931B2BABF80005E8AC /* SpeechKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,19 +97,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7AF66BBC74C0895D4CBA23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480C9FADE3E67949E6A26211 /* Pods_mealbot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9246272124C2367D2CEF7089 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83B6E25061D6961142450548 /* Pods-mealbot.debug.xcconfig */,
+				926F74E78BD20838D2057508 /* Pods-mealbot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A18E3C911B2BAA4D0005E8AC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A18E3C8E1B2BAA490005E8AC /* MBotAPIClient.h */,
+				A18E3C8F1B2BAA490005E8AC /* MBotAPIClient.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		EB84ADD01B2B948A00292BAF = {
 			isa = PBXGroup;
 			children = (
+				A18E3C921B2BABF80005E8AC /* SpeechKit.framework */,
 				EB84AE171B2BA32400292BAF /* CoreGraphics.framework */,
 				EB84AE151B2BA30F00292BAF /* Security.framework */,
 				EB84AE131B2BA30500292BAF /* SystemConfiguration.framework */,
 				EB84AE111B2BA2F200292BAF /* CFNetwork.framework */,
 				EB84AE0F1B2BA23300292BAF /* AudioToolbox.framework */,
 				EB84AE0D1B2BA20F00292BAF /* AVFoundation.framework */,
-				EB84AE051B2B998600292BAF /* SpeechKit.framework */,
 				EB84ADDB1B2B948A00292BAF /* mealbot */,
 				EB84ADF81B2B948B00292BAF /* mealbotTests */,
 				EB84ADDA1B2B948A00292BAF /* Products */,
+				9246272124C2367D2CEF7089 /* Pods */,
+				2A7AF66BBC74C0895D4CBA23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +153,7 @@
 		EB84ADDB1B2B948A00292BAF /* mealbot */ = {
 			isa = PBXGroup;
 			children = (
+				A18E3C911B2BAA4D0005E8AC /* Network */,
 				EB84ADE01B2B948A00292BAF /* AppDelegate.h */,
 				EB84ADE11B2B948A00292BAF /* AppDelegate.m */,
 				EB84ADE61B2B948A00292BAF /* ViewController.h */,
@@ -166,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB84ADFF1B2B948B00292BAF /* Build configuration list for PBXNativeTarget "mealbot" */;
 			buildPhases = (
+				3E4327ABE5D414354C626127 /* Check Pods Manifest.lock */,
 				EB84ADD51B2B948A00292BAF /* Sources */,
 				EB84ADD61B2B948A00292BAF /* Frameworks */,
 				EB84ADD71B2B948A00292BAF /* Resources */,
+				3C0567E8D62730FFDCDC55AD /* Embed Pods Frameworks */,
+				C0E1E8083098162CDE4CE0FD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +297,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C0567E8D62730FFDCDC55AD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealbot/Pods-mealbot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E4327ABE5D414354C626127 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E1E8083098162CDE4CE0FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealbot/Pods-mealbot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB84ADD51B2B948A00292BAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +352,7 @@
 			files = (
 				EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */,
 				EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */,
+				A18E3C901B2BAA490005E8AC /* MBotAPIClient.m in Sources */,
 				EB84ADE81B2B948A00292BAF /* ViewController.m in Sources */,
 				EB84ADDF1B2B948A00292BAF /* main.m in Sources */,
 			);
@@ -389,11 +478,13 @@
 		};
 		EB84AE001B2B948B00292BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B6E25061D6961142450548 /* Pods-mealbot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/calvincheng/Downloads/DragonMobileSDK_1.4.14,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = mealbot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -404,11 +495,13 @@
 		};
 		EB84AE011B2B948B00292BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926F74E78BD20838D2057508 /* Pods-mealbot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/calvincheng/Downloads/DragonMobileSDK_1.4.14,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = mealbot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -468,6 +561,7 @@
 				EB84AE011B2B948B00292BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB84AE021B2B948B00292BAF /* Build configuration list for PBXNativeTarget "mealbotTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +570,7 @@
 				EB84AE041B2B948B00292BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

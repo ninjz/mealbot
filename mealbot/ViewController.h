@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import <SpeechKit/SpeechKit.h>
+#import "MBotAPIClient.h"
+
 @interface ViewController : UIViewController <UITextFieldDelegate, SpeechKitDelegate, SKRecognizerDelegate, SKVocalizerDelegate>
 
 @property (strong, nonatomic) SKRecognizer * voiceSearch;
@@ -23,6 +25,9 @@
 @property (strong, nonatomic) NSMutableArray *tableViewDisplayDataArray;
 @property (strong, nonatomic) NSString* searchCriteria;
 @property (strong, nonatomic) SKVocalizer* vocalizer;
+
+@property (strong, nonatomic) MBotAPIClient *client;
+
 @property BOOL isSpeaking;
 
 @end
