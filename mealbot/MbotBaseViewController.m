@@ -49,6 +49,9 @@
     EmptyViewController *controller2 = [[EmptyViewController alloc] initWithNibName:@"EmptyViewController" bundle:nil];
     controller2.title = @"FILTER";
     [controllerArray addObject:controller2];
+    MBotTableViewController *controller3 = [[MBotTableViewController alloc] initWithNibName:@"MBotTableViewController" bundle:nil];
+    controller3.title = @"TABLE";
+    [controllerArray addObject:controller3];
     
     
     

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CAPSPageMenu.h"
 
+#import "MBotTableViewController.h"
 #import "TestViewController.h"
 #import "EmptyViewController.h"
 

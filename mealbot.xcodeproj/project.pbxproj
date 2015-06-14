@@ -19,6 +19,9 @@
 		A18E3CA91B2CD7F30005E8AC /* logo_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CA81B2CD7F30005E8AC /* logo_dark.png */; };
 		A18E3CAD1B2CD98F0005E8AC /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CAB1B2CD98F0005E8AC /* RecipeTableViewCell.m */; };
 		A18E3CAE1B2CD98F0005E8AC /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CAC1B2CD98F0005E8AC /* RecipeTableViewCell.xib */; };
+		A18E3CB21B2CFB1A0005E8AC /* MBotTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */; };
+		A18E3CB31B2CFB1A0005E8AC /* MBotTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */; };
+		A18E3CB51B2CFDA40005E8AC /* beef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CB41B2CFDA40005E8AC /* beef.jpg */; };
 		EB84ADDF1B2B948A00292BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADDE1B2B948A00292BAF /* main.m */; };
 		EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE11B2B948A00292BAF /* AppDelegate.m */; };
 		EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */; };
@@ -70,6 +73,10 @@
 		A18E3CAA1B2CD98F0005E8AC /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewCell.h; sourceTree = "<group>"; };
 		A18E3CAB1B2CD98F0005E8AC /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewCell.m; sourceTree = "<group>"; };
 		A18E3CAC1B2CD98F0005E8AC /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		A18E3CAF1B2CFB1A0005E8AC /* MBotTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBotTableViewController.h; sourceTree = "<group>"; };
+		A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBotTableViewController.m; sourceTree = "<group>"; };
+		A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBotTableViewController.xib; sourceTree = "<group>"; };
+		A18E3CB41B2CFDA40005E8AC /* beef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beef.jpg; sourceTree = "<group>"; };
 		EB84ADD91B2B948A00292BAF /* mealbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB84ADDD1B2B948A00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84ADDE1B2B948A00292BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -151,6 +158,9 @@
 				A18E3C9C1B2CCA8E0005E8AC /* TestViewController.h */,
 				A18E3C9D1B2CCA8E0005E8AC /* TestViewController.m */,
 				A18E3C9E1B2CCA8E0005E8AC /* TestViewController.xib */,
+				A18E3CAF1B2CFB1A0005E8AC /* MBotTableViewController.h */,
+				A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */,
+				A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */,
 				A18E3CA11B2CCEB20005E8AC /* EmptyViewController.h */,
 				A18E3CA21B2CCEB20005E8AC /* EmptyViewController.m */,
 				A18E3CA31B2CCEB20005E8AC /* EmptyViewController.xib */,
@@ -217,6 +227,7 @@
 		EB84ADDC1B2B948A00292BAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A18E3CB41B2CFDA40005E8AC /* beef.jpg */,
 				A18E3CA81B2CD7F30005E8AC /* logo_dark.png */,
 				A18E3CA61B2CD5E00005E8AC /* logo.png */,
 				A18E3C941B2CC44B0005E8AC /* CAPSPageMenu.h */,
@@ -331,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB84ADEB1B2B948A00292BAF /* Main.storyboard in Resources */,
+				A18E3CB31B2CFB1A0005E8AC /* MBotTableViewController.xib in Resources */,
 				EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */,
 				A18E3CA71B2CD5E00005E8AC /* logo.png in Resources */,
 				EB84AE0B1B2B9D3C00292BAF /* earcon_done_listening.wav in Resources */,
@@ -341,6 +353,7 @@
 				A18E3CA01B2CCA8E0005E8AC /* TestViewController.xib in Resources */,
 				A18E3CA51B2CCEB20005E8AC /* EmptyViewController.xib in Resources */,
 				EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */,
+				A18E3CB51B2CFDA40005E8AC /* beef.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +428,7 @@
 				A18E3C9F1B2CCA8E0005E8AC /* TestViewController.m in Sources */,
 				A18E3CA41B2CCEB20005E8AC /* EmptyViewController.m in Sources */,
 				EB84ADDF1B2B948A00292BAF /* main.m in Sources */,
+				A18E3CB21B2CFB1A0005E8AC /* MBotTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
