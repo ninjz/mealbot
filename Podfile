@@ -5,7 +5,7 @@ use_frameworks!
 
 target 'mealbot' do
   pod 'AFNetworking', '~> 2.5'
-  pod 'TGFoursquareLocationDetail'
+  #pod 'TGFoursquareLocationDetail'
 end
 
 target 'mealbotTests' do

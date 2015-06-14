@@ -310,6 +310,7 @@
 				TargetAttributes = {
 					EB84ADD81B2B948A00292BAF = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 8UA7WVAD5F;
 					};
 					EB84ADF41B2B948B00292BAF = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -555,6 +556,8 @@
 			baseConfigurationReference = 83B6E25061D6961142450548 /* Pods-mealbot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/calvincheng/Downloads/DragonMobileSDK_1.4.14,
@@ -564,6 +567,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -572,6 +576,8 @@
 			baseConfigurationReference = 926F74E78BD20838D2057508 /* Pods-mealbot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/calvincheng/Downloads/DragonMobileSDK_1.4.14,
@@ -581,6 +587,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

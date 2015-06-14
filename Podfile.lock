@@ -20,14 +20,11 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - TGFoursquareLocationDetail (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
-  - TGFoursquareLocationDetail
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
-  TGFoursquareLocationDetail: e2255e26b6c12d97b34fb95d88b67ab84cba1128
 
 COCOAPODS: 0.37.2
