@@ -1,13 +1,22 @@
 //
 //  JTMaterialTransition.h
-//  mealbot
+//  JTMaterialTransition
 //
-//  Created by Amr Adawi on 2015-06-15.
-//  Copyright (c) 2015 Mealbot inc. All rights reserved.
+//  Created by Jonathan Tribouharet
 //
 
-#ifndef mealbot_JTMaterialTransition_h
-#define mealbot_JTMaterialTransition_h
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
+@interface JTMaterialTransition : NSObject<UIViewControllerAnimatedTransitioning>
 
-#endif
+@property (weak, nonatomic) UIView *animatedView;
+
+@property (nonatomic) CGRect startFrame;
+@property (nonatomic) UIColor *startBackgroundColor;
+
+@property (getter=isReverse) BOOL reverse;
+
+- (instancetype)initWithAnimatedView:(UIView *)animatedView;
+
+@end

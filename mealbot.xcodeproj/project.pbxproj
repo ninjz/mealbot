@@ -22,6 +22,9 @@
 		A18E3CB21B2CFB1A0005E8AC /* MBotTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */; };
 		A18E3CB31B2CFB1A0005E8AC /* MBotTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */; };
 		A18E3CB51B2CFDA40005E8AC /* beef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CB41B2CFDA40005E8AC /* beef.jpg */; };
+		EB6450591B2F8F4F00703B06 /* JTMaterialTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6450581B2F8F4F00703B06 /* JTMaterialTransition.m */; };
+		EB64505C1B2F949400703B06 /* ListeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB64505B1B2F949400703B06 /* ListeningViewController.m */; };
+		EB64505E1B2F985E00703B06 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = EB64505D1B2F985E00703B06 /* record.png */; };
 		EB84ADDF1B2B948A00292BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADDE1B2B948A00292BAF /* main.m */; };
 		EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE11B2B948A00292BAF /* AppDelegate.m */; };
 		EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */; };
@@ -77,6 +80,11 @@
 		A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBotTableViewController.m; sourceTree = "<group>"; };
 		A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBotTableViewController.xib; sourceTree = "<group>"; };
 		A18E3CB41B2CFDA40005E8AC /* beef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beef.jpg; sourceTree = "<group>"; };
+		EB6450571B2F8F1800703B06 /* JTMaterialTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMaterialTransition.h; sourceTree = "<group>"; };
+		EB6450581B2F8F4F00703B06 /* JTMaterialTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTMaterialTransition.m; sourceTree = "<group>"; };
+		EB64505A1B2F949400703B06 /* ListeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeningViewController.h; sourceTree = "<group>"; };
+		EB64505B1B2F949400703B06 /* ListeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeningViewController.m; sourceTree = "<group>"; };
+		EB64505D1B2F985E00703B06 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
 		EB84ADD91B2B948A00292BAF /* mealbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB84ADDD1B2B948A00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84ADDE1B2B948A00292BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -227,10 +235,15 @@
 		EB84ADDC1B2B948A00292BAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB64505D1B2F985E00703B06 /* record.png */,
 				A18E3CB41B2CFDA40005E8AC /* beef.jpg */,
 				A18E3CA81B2CD7F30005E8AC /* logo_dark.png */,
 				A18E3CA61B2CD5E00005E8AC /* logo.png */,
 				A18E3C941B2CC44B0005E8AC /* CAPSPageMenu.h */,
+				EB64505A1B2F949400703B06 /* ListeningViewController.h */,
+				EB64505B1B2F949400703B06 /* ListeningViewController.m */,
+				EB6450571B2F8F1800703B06 /* JTMaterialTransition.h */,
+				EB6450581B2F8F4F00703B06 /* JTMaterialTransition.m */,
 				A18E3C951B2CC44B0005E8AC /* CAPSPageMenu.m */,
 				EB84AE071B2B9D3C00292BAF /* earcon_cancel.wav */,
 				EB84AE081B2B9D3C00292BAF /* earcon_done_listening.wav */,
@@ -345,6 +358,7 @@
 				EB84ADEB1B2B948A00292BAF /* Main.storyboard in Resources */,
 				A18E3CB31B2CFB1A0005E8AC /* MBotTableViewController.xib in Resources */,
 				EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */,
+				EB64505E1B2F985E00703B06 /* record.png in Resources */,
 				A18E3CA71B2CD5E00005E8AC /* logo.png in Resources */,
 				EB84AE0B1B2B9D3C00292BAF /* earcon_done_listening.wav in Resources */,
 				EB84AE0A1B2B9D3C00292BAF /* earcon_cancel.wav in Resources */,
@@ -421,12 +435,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A18E3C991B2CC77E0005E8AC /* MbotBaseViewController.m in Sources */,
+				EB6450591B2F8F4F00703B06 /* JTMaterialTransition.m in Sources */,
 				EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */,
 				A18E3CAD1B2CD98F0005E8AC /* RecipeTableViewCell.m in Sources */,
 				EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */,
 				A18E3C961B2CC44B0005E8AC /* CAPSPageMenu.m in Sources */,
 				A18E3C901B2BAA490005E8AC /* MBotAPIClient.m in Sources */,
 				A18E3C9F1B2CCA8E0005E8AC /* TestViewController.m in Sources */,
+				EB64505C1B2F949400703B06 /* ListeningViewController.m in Sources */,
 				A18E3CA41B2CCEB20005E8AC /* EmptyViewController.m in Sources */,
 				EB84ADDF1B2B948A00292BAF /* main.m in Sources */,
 				A18E3CB21B2CFB1A0005E8AC /* MBotTableViewController.m in Sources */,

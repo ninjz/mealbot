@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'mealbot' do
   pod 'AFNetworking', '~> 2.5'
+  pod 'JTMaterialTransition', '~>1.0'
   #pod 'TGFoursquareLocationDetail'
 end
 

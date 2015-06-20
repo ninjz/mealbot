@@ -8,14 +8,19 @@
 
 #import "MbotBaseViewController.h"
 
+//#import "SecondViewController.h"
+
 @interface MbotBaseViewController ()
 @property (nonatomic) CAPSPageMenu *pagemenu;
+
 @end
 
 @implementation MbotBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
     UIView *headerView = [[UIView alloc] init];
     headerView.frame = CGRectMake(0, 0, 320, 44);
     
@@ -26,8 +31,8 @@
 //    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:headerView];
     self.navigationController.navigationBar.topItem.titleView = headerView;
    
-    // sexy UI colors
-//    self.title = @"MEALBOT";
+//     sexy UI colors
+    self.title = @"MEALBOT";
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:30.0/255.0 green:30.0/255.0 blue:30.0/255.0 alpha:1.0];
     self.navigationController.navigationBar.shadowImage = [[UIImage alloc] init];
     [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
@@ -74,6 +79,7 @@
     // Lastly add page menu as subview of base view controller view
     // or use pageMenu controller in you view hierachy as desired
     [self.view addSubview:_pagemenu.view];
+
 }
 
 - (void)didReceiveMemoryWarning {

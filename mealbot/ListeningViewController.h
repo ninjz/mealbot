@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <SpeechKit/SpeechKit.h>
 
-@interface ListeningViewController : NSObject
+@interface ListeningViewController : UIViewController
 
+-(id)initWithVoiceSearch:(SKRecognizer *) voiceSearch;
 @end
