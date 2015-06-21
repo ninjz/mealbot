@@ -22,6 +22,10 @@
 		A18E3CB21B2CFB1A0005E8AC /* MBotTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */; };
 		A18E3CB31B2CFB1A0005E8AC /* MBotTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */; };
 		A18E3CB51B2CFDA40005E8AC /* beef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CB41B2CFDA40005E8AC /* beef.jpg */; };
+		A18E3CB91B2FDAFD0005E8AC /* MBotCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CB71B2FDAFD0005E8AC /* MBotCollectionViewController.m */; };
+		A18E3CBA1B2FDAFD0005E8AC /* MBotCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CB81B2FDAFD0005E8AC /* MBotCollectionViewController.xib */; };
+		A18E3CBE1B2FDDF40005E8AC /* RecipeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E3CBC1B2FDDF40005E8AC /* RecipeCollectionViewCell.m */; };
+		A18E3CBF1B2FDDF40005E8AC /* RecipeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18E3CBD1B2FDDF40005E8AC /* RecipeCollectionViewCell.xib */; };
 		EB84ADDF1B2B948A00292BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADDE1B2B948A00292BAF /* main.m */; };
 		EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE11B2B948A00292BAF /* AppDelegate.m */; };
 		EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB84ADE31B2B948A00292BAF /* mealbot.xcdatamodeld */; };
@@ -77,6 +81,12 @@
 		A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBotTableViewController.m; sourceTree = "<group>"; };
 		A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBotTableViewController.xib; sourceTree = "<group>"; };
 		A18E3CB41B2CFDA40005E8AC /* beef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beef.jpg; sourceTree = "<group>"; };
+		A18E3CB61B2FDAFD0005E8AC /* MBotCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBotCollectionViewController.h; sourceTree = "<group>"; };
+		A18E3CB71B2FDAFD0005E8AC /* MBotCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBotCollectionViewController.m; sourceTree = "<group>"; };
+		A18E3CB81B2FDAFD0005E8AC /* MBotCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBotCollectionViewController.xib; sourceTree = "<group>"; };
+		A18E3CBB1B2FDDF40005E8AC /* RecipeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewCell.h; sourceTree = "<group>"; };
+		A18E3CBC1B2FDDF40005E8AC /* RecipeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewCell.m; sourceTree = "<group>"; };
+		A18E3CBD1B2FDDF40005E8AC /* RecipeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeCollectionViewCell.xib; sourceTree = "<group>"; };
 		EB84ADD91B2B948A00292BAF /* mealbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB84ADDD1B2B948A00292BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84ADDE1B2B948A00292BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -129,6 +139,13 @@
 		2A7AF66BBC74C0895D4CBA23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A18E3C921B2BABF80005E8AC /* SpeechKit.framework */,
+				EB84AE171B2BA32400292BAF /* CoreGraphics.framework */,
+				EB84AE151B2BA30F00292BAF /* Security.framework */,
+				EB84AE131B2BA30500292BAF /* SystemConfiguration.framework */,
+				EB84AE111B2BA2F200292BAF /* CFNetwork.framework */,
+				EB84AE0F1B2BA23300292BAF /* AudioToolbox.framework */,
+				EB84AE0D1B2BA20F00292BAF /* AVFoundation.framework */,
 				480C9FADE3E67949E6A26211 /* Pods_mealbot.framework */,
 			);
 			name = Frameworks;
@@ -161,6 +178,9 @@
 				A18E3CAF1B2CFB1A0005E8AC /* MBotTableViewController.h */,
 				A18E3CB01B2CFB1A0005E8AC /* MBotTableViewController.m */,
 				A18E3CB11B2CFB1A0005E8AC /* MBotTableViewController.xib */,
+				A18E3CB61B2FDAFD0005E8AC /* MBotCollectionViewController.h */,
+				A18E3CB71B2FDAFD0005E8AC /* MBotCollectionViewController.m */,
+				A18E3CB81B2FDAFD0005E8AC /* MBotCollectionViewController.xib */,
 				A18E3CA11B2CCEB20005E8AC /* EmptyViewController.h */,
 				A18E3CA21B2CCEB20005E8AC /* EmptyViewController.m */,
 				A18E3CA31B2CCEB20005E8AC /* EmptyViewController.xib */,
@@ -171,23 +191,35 @@
 		A18E3C9B1B2CC94B0005E8AC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				A18E3CC01B2FE4150005E8AC /* Table */,
+				A18E3CC11B2FE41B0005E8AC /* Collection */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A18E3CC01B2FE4150005E8AC /* Table */ = {
+			isa = PBXGroup;
+			children = (
 				A18E3CAA1B2CD98F0005E8AC /* RecipeTableViewCell.h */,
 				A18E3CAB1B2CD98F0005E8AC /* RecipeTableViewCell.m */,
 				A18E3CAC1B2CD98F0005E8AC /* RecipeTableViewCell.xib */,
 			);
-			name = Cells;
+			name = Table;
+			sourceTree = "<group>";
+		};
+		A18E3CC11B2FE41B0005E8AC /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				A18E3CBB1B2FDDF40005E8AC /* RecipeCollectionViewCell.h */,
+				A18E3CBC1B2FDDF40005E8AC /* RecipeCollectionViewCell.m */,
+				A18E3CBD1B2FDDF40005E8AC /* RecipeCollectionViewCell.xib */,
+			);
+			name = Collection;
 			sourceTree = "<group>";
 		};
 		EB84ADD01B2B948A00292BAF = {
 			isa = PBXGroup;
 			children = (
-				A18E3C921B2BABF80005E8AC /* SpeechKit.framework */,
-				EB84AE171B2BA32400292BAF /* CoreGraphics.framework */,
-				EB84AE151B2BA30F00292BAF /* Security.framework */,
-				EB84AE131B2BA30500292BAF /* SystemConfiguration.framework */,
-				EB84AE111B2BA2F200292BAF /* CFNetwork.framework */,
-				EB84AE0F1B2BA23300292BAF /* AudioToolbox.framework */,
-				EB84AE0D1B2BA20F00292BAF /* AVFoundation.framework */,
 				EB84ADDB1B2B948A00292BAF /* mealbot */,
 				EB84ADF81B2B948B00292BAF /* mealbotTests */,
 				EB84ADDA1B2B948A00292BAF /* Products */,
@@ -346,6 +378,7 @@
 				EB84ADF01B2B948A00292BAF /* LaunchScreen.xib in Resources */,
 				A18E3CA71B2CD5E00005E8AC /* logo.png in Resources */,
 				EB84AE0B1B2B9D3C00292BAF /* earcon_done_listening.wav in Resources */,
+				A18E3CBF1B2FDDF40005E8AC /* RecipeCollectionViewCell.xib in Resources */,
 				EB84AE0A1B2B9D3C00292BAF /* earcon_cancel.wav in Resources */,
 				EB84AE0C1B2B9D3C00292BAF /* earcon_listening.wav in Resources */,
 				A18E3CAE1B2CD98F0005E8AC /* RecipeTableViewCell.xib in Resources */,
@@ -353,6 +386,7 @@
 				A18E3CA01B2CCA8E0005E8AC /* TestViewController.xib in Resources */,
 				A18E3CA51B2CCEB20005E8AC /* EmptyViewController.xib in Resources */,
 				EB84ADED1B2B948A00292BAF /* Images.xcassets in Resources */,
+				A18E3CBA1B2FDAFD0005E8AC /* MBotCollectionViewController.xib in Resources */,
 				A18E3CB51B2CFDA40005E8AC /* beef.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,9 +457,11 @@
 				EB84ADE51B2B948A00292BAF /* mealbot.xcdatamodeld in Sources */,
 				A18E3CAD1B2CD98F0005E8AC /* RecipeTableViewCell.m in Sources */,
 				EB84ADE21B2B948A00292BAF /* AppDelegate.m in Sources */,
+				A18E3CB91B2FDAFD0005E8AC /* MBotCollectionViewController.m in Sources */,
 				A18E3C961B2CC44B0005E8AC /* CAPSPageMenu.m in Sources */,
 				A18E3C901B2BAA490005E8AC /* MBotAPIClient.m in Sources */,
 				A18E3C9F1B2CCA8E0005E8AC /* TestViewController.m in Sources */,
+				A18E3CBE1B2FDDF40005E8AC /* RecipeCollectionViewCell.m in Sources */,
 				A18E3CA41B2CCEB20005E8AC /* EmptyViewController.m in Sources */,
 				EB84ADDF1B2B948A00292BAF /* main.m in Sources */,
 				A18E3CB21B2CFB1A0005E8AC /* MBotTableViewController.m in Sources */,

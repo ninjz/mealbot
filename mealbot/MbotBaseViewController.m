@@ -23,7 +23,6 @@
     imgView.frame = CGRectMake(75, 0, 150, 44);
     imgView.contentMode = UIViewContentModeScaleAspectFit;
     [headerView addSubview:imgView];
-//    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:headerView];
     self.navigationController.navigationBar.topItem.titleView = headerView;
    
     // sexy UI colors
@@ -43,12 +42,15 @@
     // (Can be any UIViewController subclass)
     // Make sure the title property of all view controllers is set
     // Example:
+    
+    MBotCollectionViewController *controller2 = [[MBotCollectionViewController alloc] initWithNibName:@"MBotCollectionViewController" bundle:nil];
+    controller2.title = @"COLLECTION";
+    [controllerArray addObject:controller2];
+    
     TestViewController *controller = [[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
     controller.title = @"RESULTS";
     [controllerArray addObject:controller];
-    EmptyViewController *controller2 = [[EmptyViewController alloc] initWithNibName:@"EmptyViewController" bundle:nil];
-    controller2.title = @"FILTER";
-    [controllerArray addObject:controller2];
+    
     MBotTableViewController *controller3 = [[MBotTableViewController alloc] initWithNibName:@"MBotTableViewController" bundle:nil];
     controller3.title = @"TABLE";
     [controllerArray addObject:controller3];
@@ -59,7 +61,7 @@
     // Example:
     NSDictionary *parameters = @{
                                  CAPSPageMenuOptionScrollMenuBackgroundColor: [UIColor colorWithRed:30.0/255.0 green:30.0/255.0 blue:30.0/255.0 alpha:1.0],
-//                                 CAPSPageMenuOptionViewBackgroundColor: [UIColor colorWithRed:20.0/255.0 green:20.0/255.0 blue:20.0/255.0 alpha:1.0],
+                                 CAPSPageMenuOptionViewBackgroundColor: [UIColor colorWithRed:20.0/255.0 green:20.0/255.0 blue:20.0/255.0 alpha:1.0],
                                  CAPSPageMenuOptionSelectionIndicatorColor: [UIColor orangeColor],
                                  CAPSPageMenuOptionBottomMenuHairlineColor: [UIColor colorWithRed:70.0/255.0 green:70.0/255.0 blue:70.0/255.0 alpha:1.0],
                                  CAPSPageMenuOptionMenuItemFont: [UIFont fontWithName:@"HelveticaNeue" size:13.0],

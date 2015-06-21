@@ -10,6 +10,7 @@
 #import "CAPSPageMenu.h"
 
 #import "MBotTableViewController.h"
+#import "MBotCollectionViewController.h"
 #import "TestViewController.h"
 #import "EmptyViewController.h"
 

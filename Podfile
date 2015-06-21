@@ -5,7 +5,8 @@ use_frameworks!
 
 target 'mealbot' do
   pod 'AFNetworking', '~> 2.5'
-  pod 'TGFoursquareLocationDetail'
+  pod 'SDWebImage', '~> 3.7'
+  pod 'KRLCollectionViewGridLayout'
 end
 
 target 'mealbotTests' do
